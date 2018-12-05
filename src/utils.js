@@ -1,3 +1,4 @@
+//here we export the Utils object, which will receive its name via the import in the App module
 export default {
     toCelsius : (fahrenheit) => {
         return (fahrenheit - 32) * 5 / 9;
